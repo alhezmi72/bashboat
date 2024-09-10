@@ -15,7 +15,9 @@ WEBSOCKET_URL = "ws://localhost:3000/signalk/v1/stream"
 # WEBSOCKET_URL = "ws://192.168.1.16:3000/signalk/v1/stream"
 
 # MQTT broker configuration
-broker = 'broker.emqx.io' # Public broker
+#broker = 'broker.emqx.io' # Public broker
+broker = 'localhost' # Public broker
+
 # broker = 'bd2eee5e.ala.asia-southeast1.emqxsl.com' # Private broker
 port = 1883 # non-secure port (public broker only supports this)
 # port = 8883 # secure port (use only with private broker)
